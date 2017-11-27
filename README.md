@@ -14,7 +14,7 @@ This app is unique in the fact that it talks about the history of the Musial Awa
 
 ### Who are the developers?
 
-##### Kassie Cooper
+#### Kassie Cooper
 
 Kassie first year Cyber Security major from St. Louis, MO. She attended Mehlville High School and was a part of TRSA, Robotics, and theatre. On her free time, she enjoys spending time wuth her dogs and sleeping.
 
