@@ -28,7 +28,7 @@ Navigation Bar
 Drop down bar?
 
 class nominees{
-var name = String()
+var nominee = String()
 var year = Int()
 
 ###Purpose Of Event
@@ -87,3 +87,4 @@ nameText = textbox.text
 emailText = textbox.text
 nomineesText = textbox.text
 awardDescription =textbox.tex
+}
