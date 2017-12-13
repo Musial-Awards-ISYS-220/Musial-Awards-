@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="c4G-z3-yry">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Item-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Musial_Awards" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="DeveloperController" customModule="Musial_Awards" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -63,10 +63,170 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="NMG-At-hZz"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-98.400000000000006" y="118.29085457271366"/>
+            <point key="canvasLocation" x="240.80000000000001" y="118.29085457271366"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="SN5-kF-00D">
+            <objects>
+                <viewController id="eQq-WU-k9b" customClass="HomeController" customModule="Musial_Awards" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="F2U-cj-mps">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="850"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oyX-fJ-h4O">
+                                <rect key="frame" x="0.0" y="20" width="375" height="781"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NiK-eU-Zon">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hbE-iK-3es">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="205"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="205" id="sNQ-rF-9xi"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="le8-YX-2Sf">
+                                                <rect key="frame" x="0.0" y="215" width="375" height="505"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dxn-3r-aGt">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                                        <color key="backgroundColor" red="0.93414022020725385" green="0.31322454599914945" blue="0.3113007948958128" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="80" id="76q-8h-KOI"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <state key="normal" title="TICKETS"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vlB-a6-4zI">
+                                                        <rect key="frame" x="0.0" y="85" width="375" height="80"/>
+                                                        <color key="backgroundColor" red="0.93414022020725385" green="0.31322454599914945" blue="0.3113007948958128" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="80" id="xhH-dC-7hm"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <state key="normal" title="DAY OF EVENT"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MvB-UT-gR3">
+                                                        <rect key="frame" x="0.0" y="170" width="375" height="80"/>
+                                                        <color key="backgroundColor" red="0.93414022020725385" green="0.31322454599914945" blue="0.3113007948958128" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="80" id="PxC-yk-5Ld"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <state key="normal" title="FAQ"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rR8-Ti-Kge">
+                                                        <rect key="frame" x="0.0" y="255" width="375" height="80"/>
+                                                        <color key="backgroundColor" red="0.93414022020725385" green="0.31322454599914945" blue="0.3113007948958128" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="80" id="9VG-Ol-lDe"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <state key="normal" title="ATTENDEES"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AHL-gM-KjQ">
+                                                        <rect key="frame" x="0.0" y="340" width="375" height="80"/>
+                                                        <color key="backgroundColor" red="0.93414022020725385" green="0.31322454599914945" blue="0.3113007948958128" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="80" id="jDX-oo-hdQ"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <state key="normal" title="COMMUNITY"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rOj-MM-MCf">
+                                                        <rect key="frame" x="0.0" y="425" width="375" height="80"/>
+                                                        <color key="backgroundColor" red="0.93414022020725385" green="0.31322454599914945" blue="0.3113007948958128" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="80" id="gTb-dT-l7N"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <state key="normal" title="PURPOSE OF EVENT"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="le8-YX-2Sf" firstAttribute="leading" secondItem="NiK-eU-Zon" secondAttribute="leading" id="RMj-iZ-QCx"/>
+                                            <constraint firstItem="hbE-iK-3es" firstAttribute="top" secondItem="NiK-eU-Zon" secondAttribute="top" id="WfP-N2-cCW"/>
+                                            <constraint firstItem="hbE-iK-3es" firstAttribute="leading" secondItem="NiK-eU-Zon" secondAttribute="leading" id="YbT-hI-thn"/>
+                                            <constraint firstItem="hbE-iK-3es" firstAttribute="centerX" secondItem="NiK-eU-Zon" secondAttribute="centerX" id="b71-m2-5Ng"/>
+                                            <constraint firstAttribute="height" constant="1000" id="g4I-R4-qKG"/>
+                                            <constraint firstAttribute="trailing" secondItem="le8-YX-2Sf" secondAttribute="trailing" id="hYV-cP-oWo"/>
+                                            <constraint firstItem="le8-YX-2Sf" firstAttribute="centerX" secondItem="NiK-eU-Zon" secondAttribute="centerX" id="p0F-Xw-k0x"/>
+                                            <constraint firstItem="le8-YX-2Sf" firstAttribute="top" secondItem="hbE-iK-3es" secondAttribute="bottom" constant="10" id="u7h-lq-p1b"/>
+                                            <constraint firstAttribute="trailing" secondItem="hbE-iK-3es" secondAttribute="trailing" id="wbf-o3-SsR"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="NiK-eU-Zon" secondAttribute="bottom" id="EHe-2z-XN3"/>
+                                    <constraint firstAttribute="trailing" secondItem="NiK-eU-Zon" secondAttribute="trailing" id="Ve9-uC-xPZ"/>
+                                    <constraint firstItem="NiK-eU-Zon" firstAttribute="top" secondItem="oyX-fJ-h4O" secondAttribute="top" id="YJc-zv-44k"/>
+                                    <constraint firstItem="NiK-eU-Zon" firstAttribute="leading" secondItem="oyX-fJ-h4O" secondAttribute="leading" id="ZxD-CJ-Kzj"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NiK-eU-Zon" firstAttribute="width" secondItem="F2U-cj-mps" secondAttribute="width" id="CCO-34-bB7"/>
+                            <constraint firstItem="6z3-zd-4X0" firstAttribute="bottom" secondItem="oyX-fJ-h4O" secondAttribute="bottom" id="Hlt-m3-hmf"/>
+                            <constraint firstItem="oyX-fJ-h4O" firstAttribute="top" secondItem="6z3-zd-4X0" secondAttribute="top" id="SMy-LC-iSi"/>
+                            <constraint firstItem="oyX-fJ-h4O" firstAttribute="leading" secondItem="6z3-zd-4X0" secondAttribute="leading" id="Xnl-mF-Bu8"/>
+                            <constraint firstItem="6z3-zd-4X0" firstAttribute="trailing" secondItem="oyX-fJ-h4O" secondAttribute="trailing" id="jcO-hC-ywk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6z3-zd-4X0"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" id="GH0-Ll-TiZ"/>
+                    <size key="freeformSize" width="375" height="850"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aAL-WT-oZe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="902" y="196"/>
+        </scene>
+        <!--Event-->
+        <scene sceneID="ryC-aC-y9z">
+            <objects>
+                <viewController id="3S7-Rz-wQa" customClass="EventInfoController" customModule="Musial_Awards" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XVL-sS-E0Y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Rvg-Tu-esR"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Event" id="kCb-DM-fSq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Doi-La-oVP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1572" y="113.79310344827587"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="1JI-3b-8h1">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="c4G-z3-yry" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qoz-wD-KAw">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="eQq-WU-k9b" kind="relationship" relationship="viewControllers" id="VFD-dL-n1n"/>
+                        <segue destination="3S7-Rz-wQa" kind="relationship" relationship="viewControllers" id="n2c-fr-6Z7"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="POL-kn-elW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="903" y="-651"/>
         </scene>
     </scenes>
     <resources>
