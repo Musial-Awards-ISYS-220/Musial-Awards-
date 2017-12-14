@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		164CBBA31FE1CE0A00B88439 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164CBBA21FE1CE0A00B88439 /* HomeController.swift */; };
 		164CBBA51FE1CE6C00B88439 /* EventInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164CBBA41FE1CE6C00B88439 /* EventInfoController.swift */; };
+		2D864F5C1FE30B88009DF308 /* NomineesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D864F5B1FE30B88009DF308 /* NomineesViewController.swift */; };
+		2D864F5E1FE30C5E009DF308 /* NominateSomeoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D864F5D1FE30C5E009DF308 /* NominateSomeoneViewController.swift */; };
+		2D864F601FE30E84009DF308 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D864F5F1FE30E84009DF308 /* CommunityViewController.swift */; };
 		2DF5282C1FCCC65300FED485 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF5282B1FCCC65300FED485 /* AppDelegate.swift */; };
 		2DF5282E1FCCC65300FED485 /* DeveloperController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF5282D1FCCC65300FED485 /* DeveloperController.swift */; };
 		2DF528311FCCC65300FED485 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DF5282F1FCCC65300FED485 /* Main.storyboard */; };
@@ -19,6 +22,9 @@
 /* Begin PBXFileReference section */
 		164CBBA21FE1CE0A00B88439 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		164CBBA41FE1CE6C00B88439 /* EventInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInfoController.swift; sourceTree = "<group>"; };
+		2D864F5B1FE30B88009DF308 /* NomineesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomineesViewController.swift; sourceTree = "<group>"; };
+		2D864F5D1FE30C5E009DF308 /* NominateSomeoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NominateSomeoneViewController.swift; sourceTree = "<group>"; };
+		2D864F5F1FE30E84009DF308 /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
 		2DF528281FCCC65300FED485 /* Musial Awards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Musial Awards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DF5282B1FCCC65300FED485 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DF5282D1FCCC65300FED485 /* DeveloperController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperController.swift; sourceTree = "<group>"; };
@@ -62,10 +68,13 @@
 				2DF5282D1FCCC65300FED485 /* DeveloperController.swift */,
 				164CBBA21FE1CE0A00B88439 /* HomeController.swift */,
 				164CBBA41FE1CE6C00B88439 /* EventInfoController.swift */,
+				2D864F5B1FE30B88009DF308 /* NomineesViewController.swift */,
 				2DF5282F1FCCC65300FED485 /* Main.storyboard */,
+				2D864F5D1FE30C5E009DF308 /* NominateSomeoneViewController.swift */,
 				2DF528321FCCC65300FED485 /* Assets.xcassets */,
 				2DF528341FCCC65300FED485 /* LaunchScreen.storyboard */,
 				2DF528371FCCC65300FED485 /* Info.plist */,
+				2D864F5F1FE30E84009DF308 /* CommunityViewController.swift */,
 			);
 			path = "Musial Awards";
 			sourceTree = "<group>";
@@ -144,8 +153,11 @@
 			files = (
 				2DF5282E1FCCC65300FED485 /* DeveloperController.swift in Sources */,
 				2DF5282C1FCCC65300FED485 /* AppDelegate.swift in Sources */,
+				2D864F5E1FE30C5E009DF308 /* NominateSomeoneViewController.swift in Sources */,
 				164CBBA51FE1CE6C00B88439 /* EventInfoController.swift in Sources */,
+				2D864F5C1FE30B88009DF308 /* NomineesViewController.swift in Sources */,
 				164CBBA31FE1CE0A00B88439 /* HomeController.swift in Sources */,
+				2D864F601FE30E84009DF308 /* CommunityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
