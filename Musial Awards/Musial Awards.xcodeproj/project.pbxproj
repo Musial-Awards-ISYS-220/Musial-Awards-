@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		163065731FE3126000DF8BBF /* ListAttendeesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163065721FE3126000DF8BBF /* ListAttendeesController.swift */; };
 		164CBBA31FE1CE0A00B88439 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164CBBA21FE1CE0A00B88439 /* HomeController.swift */; };
 		164CBBA51FE1CE6C00B88439 /* EventInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164CBBA41FE1CE6C00B88439 /* EventInfoController.swift */; };
 		2D864F5C1FE30B88009DF308 /* NomineesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D864F5B1FE30B88009DF308 /* NomineesViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		163065721FE3126000DF8BBF /* ListAttendeesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAttendeesController.swift; sourceTree = "<group>"; };
 		164CBBA21FE1CE0A00B88439 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		164CBBA41FE1CE6C00B88439 /* EventInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInfoController.swift; sourceTree = "<group>"; };
 		2D864F5B1FE30B88009DF308 /* NomineesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomineesViewController.swift; sourceTree = "<group>"; };
@@ -65,16 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				2DF5282B1FCCC65300FED485 /* AppDelegate.swift */,
+				2D864F5F1FE30E84009DF308 /* CommunityViewController.swift */,
 				2DF5282D1FCCC65300FED485 /* DeveloperController.swift */,
-				164CBBA21FE1CE0A00B88439 /* HomeController.swift */,
 				164CBBA41FE1CE6C00B88439 /* EventInfoController.swift */,
+				164CBBA21FE1CE0A00B88439 /* HomeController.swift */,
+				163065721FE3126000DF8BBF /* ListAttendeesController.swift */,
 				2D864F5B1FE30B88009DF308 /* NomineesViewController.swift */,
-				2DF5282F1FCCC65300FED485 /* Main.storyboard */,
 				2D864F5D1FE30C5E009DF308 /* NominateSomeoneViewController.swift */,
+				2DF5282F1FCCC65300FED485 /* Main.storyboard */,
 				2DF528321FCCC65300FED485 /* Assets.xcassets */,
 				2DF528341FCCC65300FED485 /* LaunchScreen.storyboard */,
 				2DF528371FCCC65300FED485 /* Info.plist */,
-				2D864F5F1FE30E84009DF308 /* CommunityViewController.swift */,
 			);
 			path = "Musial Awards";
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				2D864F5E1FE30C5E009DF308 /* NominateSomeoneViewController.swift in Sources */,
 				164CBBA51FE1CE6C00B88439 /* EventInfoController.swift in Sources */,
 				2D864F5C1FE30B88009DF308 /* NomineesViewController.swift in Sources */,
+				163065731FE3126000DF8BBF /* ListAttendeesController.swift in Sources */,
 				164CBBA31FE1CE0A00B88439 /* HomeController.swift in Sources */,
 				2D864F601FE30E84009DF308 /* CommunityViewController.swift in Sources */,
 			);
