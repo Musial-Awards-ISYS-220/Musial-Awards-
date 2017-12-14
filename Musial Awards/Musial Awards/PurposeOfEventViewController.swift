@@ -1,14 +1,14 @@
 //
-//  HomeController.swift
+//  PurposeOfEventViewController.swift
 //  Musial Awards
 //
-//  Created by cyber on 12/13/17.
+//  Created by Drew Stanowski on 12/14/17.
 //  Copyright © 2017 Maryville App Development. All rights reserved.
 //
 
 import UIKit
 
-class HomeController: UIViewController {
+class PurposeOfEventViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,11 +16,6 @@ class HomeController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func unwindToHome(unwindSegue: UIStoryboardSegue) {
-        
-    }
-    
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
