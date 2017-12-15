@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eQq-WU-k9b">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eQq-WU-k9b">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -412,7 +412,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="wFJ-pb-8kP">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Image 1" id="wFJ-pb-8kP">
                                         <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -431,7 +431,7 @@
                                             <constraint firstItem="jcy-iK-fis" firstAttribute="centerY" secondItem="wFJ-pb-8kP" secondAttribute="centerY" id="qF0-6r-aoF"/>
                                         </constraints>
                                     </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="98s-x3-xrc">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Image 2" id="98s-x3-xrc">
                                         <rect key="frame" x="121.5" y="0.0" width="100" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -450,7 +450,7 @@
                                             <constraint firstItem="HTb-OH-v5O" firstAttribute="centerX" secondItem="98s-x3-xrc" secondAttribute="centerX" id="zwv-gQ-cO3"/>
                                         </constraints>
                                     </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="QTf-bo-TPD">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Image 3" id="QTf-bo-TPD">
                                         <rect key="frame" x="243" y="0.0" width="100" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -469,7 +469,7 @@
                                             <constraint firstItem="3Tw-gA-toP" firstAttribute="centerX" secondItem="QTf-bo-TPD" secondAttribute="centerX" id="NPR-Q5-hdg"/>
                                         </constraints>
                                     </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="vYV-hi-haL">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Image 4" id="vYV-hi-haL">
                                         <rect key="frame" x="0.0" y="138" width="100" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -488,7 +488,7 @@
                                             <constraint firstItem="vTR-t1-Vnk" firstAttribute="width" secondItem="vYV-hi-haL" secondAttribute="width" id="pdv-wZ-ZG0"/>
                                         </constraints>
                                     </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="I5d-Y4-JxO">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Image 5" id="I5d-Y4-JxO">
                                         <rect key="frame" x="121.5" y="138" width="100" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -507,7 +507,7 @@
                                             <constraint firstItem="sP4-Ci-v2i" firstAttribute="centerX" secondItem="I5d-Y4-JxO" secondAttribute="centerX" id="oHY-k4-lXc"/>
                                         </constraints>
                                     </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="50n-ZD-mmw">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Image 6" id="50n-ZD-mmw">
                                         <rect key="frame" x="243" y="138" width="100" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -526,7 +526,7 @@
                                             <constraint firstItem="rTA-JY-MRs" firstAttribute="height" secondItem="50n-ZD-mmw" secondAttribute="height" id="sWh-vy-r4U"/>
                                         </constraints>
                                     </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="99g-s1-F78">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Image 7" id="99g-s1-F78">
                                         <rect key="frame" x="0.0" y="276" width="100" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -545,7 +545,7 @@
                                             <constraint firstItem="fq4-AX-nLO" firstAttribute="centerX" secondItem="99g-s1-F78" secondAttribute="centerX" id="iRb-FR-Zqn"/>
                                         </constraints>
                                     </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="X6T-AG-1PO">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Image 8" id="X6T-AG-1PO">
                                         <rect key="frame" x="121.5" y="276" width="100" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -648,7 +648,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="OM9-QY-jqz">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="OM9-QY-jqz">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="180"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -668,7 +668,7 @@
                                         </constraints>
                                         <size key="customSize" width="343" height="180"/>
                                     </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Zn8-F3-K4b">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Community 2" id="Zn8-F3-K4b">
                                         <rect key="frame" x="0.0" y="182" width="343" height="173"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -676,7 +676,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2017-12-14 at 5.35.43 PM" translatesAutoresizingMaskIntoConstraints="NO" id="E26-qV-U6X">
-                                                    <rect key="frame" x="0.0" y="0.5" width="343" height="174"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="343" height="173"/>
                                                 </imageView>
                                             </subviews>
                                         </view>
@@ -688,7 +688,7 @@
                                         </constraints>
                                         <size key="customSize" width="343" height="173"/>
                                     </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="0p2-hJ-afO">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Community 3" id="0p2-hJ-afO">
                                         <rect key="frame" x="0.0" y="357" width="343" height="202"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -947,7 +947,7 @@
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dPi-Ku-60J">
                                                 <rect key="frame" x="20" y="979.5" width="335" height="1002.5"/>
-                                                <mutableString key="text">Out of the heartland of America, a unique and important tradition of celebrating extraordinary sportsmanship has been established.  Since 2005, the nation’s best sports have come together in St. Louis for the Musial Awards, the most meaningful and inspiring night in sports.
+                                                <string key="text">Out of the heartland of America, a unique and important tradition of celebrating extraordinary sportsmanship has been established.  Since 2005, the nation’s best sports have come together in St. Louis for the Musial Awards, the most meaningful and inspiring night in sports.
 
 Named for Stan Musial, a sports icon who embodied class and kindness, the Musial Awards recognize the year’s greatest moments of sportsmanship in North America and honor legendary sports figures who personify its virtues.
 
@@ -957,7 +957,7 @@ The Musial Awards takes place annually the Saturday before Thanksgiving at the h
 
 The roots of the Musial Awards go back to 1999 when the Citizenship Through Sports Alliance launched an awards program recognizing character in sport.  In 2005, the event moved to St. Louis.  A year later it was renamed the National Sportsmanship Awards.  In 2012, with the blessing of the Musial family, organizers announced the event and its awards would be named in honor of the St. Louis hero and Cardinals legend – one of the greatest players in baseball history and the ultimate good sport.  Defined by class, excellence, humility and generosity, Stan Musial personified sportsmanship.  It’s fitting that the award recognizing extraordinary sportsmanship is named in his honor.
 
-Since 2011, Maryville University has served as the presenting sponsor for the Musial Awards.  The school’s involvement, leadership and generosity have helped make the show one of the great nights in all of sports.</mutableString>
+Since 2011, Maryville University has served as the presenting sponsor for the Musial Awards.  The school’s involvement, leadership and generosity have helped make the show one of the great nights in all of sports.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -970,11 +970,11 @@ Since 2011, Maryville University has served as the presenting sponsor for the Mu
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kmd-Xp-3S3">
                                                 <rect key="frame" x="20" y="202" width="335" height="698.5"/>
-                                                <mutableString key="text">Defined by class, excellence, humility, and generosity, Stan Musial embodied the virtues of sportsmanship. That’s why the most meaningful and inspiring night in sports bears Stan the Man’s name. Beloved by our community and around the world, his legacy and spirit are forever honored when we celebrate extraordinary sportsmanship and all that’s right in sports.
+                                                <string key="text">Defined by class, excellence, humility, and generosity, Stan Musial embodied the virtues of sportsmanship. That’s why the most meaningful and inspiring night in sports bears Stan the Man’s name. Beloved by our community and around the world, his legacy and spirit are forever honored when we celebrate extraordinary sportsmanship and all that’s right in sports.
 
 Stan is considered one of the greatest baseball players in history with 22 seasons as a St. Louis Cardinal. He totaled 3,630 hits, ranking fourth all-time and is considered to be the most consistent hitter of his era. Playing first base and later in the outfield, he helped the Cardinals win three World Series championships, was named the National League’s MVP three times and made 24 All-Star Game appearances. A first-ballot inductee into the National Baseball Hall of Fame in 1969, Musial received numerous awards for his contributions to baseball and society. He was selected to the Major League Baseball All-Century Team in 1999 and posthumously inducted into the St. Louis Cardinals Hall of Fame in the inaugural class of 2014. In 2011, President Barack Obama presented him the Presidential Medal of Freedom, the highest civilian award in the United States.
 
-Given the nickname “Stan the Man,” he was a role model on and off the field. It is for this reason that his statue outside Busch Stadium is inscribed with the quote from former baseball Commissioner Ford Frick: “Here stands baseball’s perfect warrior. Here stands baseball’s perfect knight.” A true icon of sportsmanship, he left a legacy that few can match.</mutableString>
+Given the nickname “Stan the Man,” he was a role model on and off the field. It is for this reason that his statue outside Busch Stadium is inscribed with the quote from former baseball Commissioner Ford Frick: “Here stands baseball’s perfect warrior. Here stands baseball’s perfect knight.” A true icon of sportsmanship, he left a legacy that few can match.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
