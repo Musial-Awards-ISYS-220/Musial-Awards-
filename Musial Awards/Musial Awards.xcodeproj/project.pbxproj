@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		163065731FE3126000DF8BBF /* ListAttendeesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163065721FE3126000DF8BBF /* ListAttendeesController.swift */; };
+		163065AF1FE327E100DF8BBF /* CommunityFilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163065AE1FE327E100DF8BBF /* CommunityFilterController.swift */; };
 		164CBBA31FE1CE0A00B88439 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164CBBA21FE1CE0A00B88439 /* HomeController.swift */; };
 		164CBBA51FE1CE6C00B88439 /* EventInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164CBBA41FE1CE6C00B88439 /* EventInfoController.swift */; };
 		2D864F5C1FE30B88009DF308 /* NomineesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D864F5B1FE30B88009DF308 /* NomineesViewController.swift */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		163065721FE3126000DF8BBF /* ListAttendeesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAttendeesController.swift; sourceTree = "<group>"; };
+		163065AE1FE327E100DF8BBF /* CommunityFilterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityFilterController.swift; sourceTree = "<group>"; };
 		164CBBA21FE1CE0A00B88439 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		164CBBA41FE1CE6C00B88439 /* EventInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInfoController.swift; sourceTree = "<group>"; };
 		2D864F5B1FE30B88009DF308 /* NomineesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomineesViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 			children = (
 				2DF5282B1FCCC65300FED485 /* AppDelegate.swift */,
 				2D864F5F1FE30E84009DF308 /* CommunityViewController.swift */,
+				163065AE1FE327E100DF8BBF /* CommunityFilterController.swift */,
 				2DF5282D1FCCC65300FED485 /* DeveloperController.swift */,
 				164CBBA41FE1CE6C00B88439 /* EventInfoController.swift */,
 				164CBBA21FE1CE0A00B88439 /* HomeController.swift */,
@@ -163,6 +166,7 @@
 				2DF5282E1FCCC65300FED485 /* DeveloperController.swift in Sources */,
 				2DF5282C1FCCC65300FED485 /* AppDelegate.swift in Sources */,
 				2D864F5E1FE30C5E009DF308 /* NominateSomeoneViewController.swift in Sources */,
+				163065AF1FE327E100DF8BBF /* CommunityFilterController.swift in Sources */,
 				2D864F621FE31537009DF308 /* PurposeOfEventViewController.swift in Sources */,
 				164CBBA51FE1CE6C00B88439 /* EventInfoController.swift in Sources */,
 				2D864F5C1FE30B88009DF308 /* NomineesViewController.swift in Sources */,
