@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Musial Awards
 //
-//  Created by Drew Stanowski on 11/27/17.
+//  Created by Kassie Cooper on 11/27/17.
 //  Copyright © 2017 Maryville App Development. All rights reserved.
 //
 

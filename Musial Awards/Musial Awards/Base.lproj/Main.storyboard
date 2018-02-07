@@ -629,11 +629,8 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qGq-i9-zVZ">
-                                <rect key="frame" x="315" y="74" width="44" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="cFE-ab-VO7"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qGq-i9-zVZ">
+                                <rect key="frame" x="330" y="69" width="44" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Filter"/>
                                 <connections>
@@ -642,41 +639,38 @@
                                     </segue>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="qUI-9K-ckp">
-                                <rect key="frame" x="15" y="104" width="345" height="558"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="qUI-9K-ckp">
+                                <rect key="frame" x="1" y="110" width="373" height="557"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2017-12-14 at 5.36.20 PM" translatesAutoresizingMaskIntoConstraints="NO" id="7pN-Jn-fND">
-                                        <rect key="frame" x="0.0" y="0.0" width="345" height="186"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="373" height="185.5"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2017-12-14 at 5.35.43 PM" translatesAutoresizingMaskIntoConstraints="NO" id="12T-cF-Zk9">
-                                        <rect key="frame" x="0.0" y="186" width="345" height="186"/>
+                                        <rect key="frame" x="0.0" y="185.5" width="373" height="186"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2017-12-14 at 5.34.09 PM" translatesAutoresizingMaskIntoConstraints="NO" id="1q6-FU-RI2">
-                                        <rect key="frame" x="0.0" y="372" width="345" height="186"/>
+                                        <rect key="frame" x="0.0" y="371.5" width="373" height="185.5"/>
                                     </imageView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="1q6-FU-RI2" firstAttribute="height" secondItem="12T-cF-Zk9" secondAttribute="height" id="4as-z4-vwJ"/>
-                                    <constraint firstItem="12T-cF-Zk9" firstAttribute="height" secondItem="7pN-Jn-fND" secondAttribute="height" id="MDH-2b-bq9"/>
+                                    <constraint firstAttribute="width" constant="373" id="8n9-tb-n35"/>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="VPO-2w-gu6" firstAttribute="top" secondItem="sNS-lc-8No" secondAttribute="top" id="0FO-V8-bP2"/>
-                            <constraint firstItem="qUI-9K-ckp" firstAttribute="top" secondItem="qGq-i9-zVZ" secondAttribute="bottom" id="25Q-vK-11B"/>
-                            <constraint firstItem="qGq-i9-zVZ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="dLu-fU-6VH" secondAttribute="leading" constant="20" symbolic="YES" id="FVF-FT-1Cj"/>
-                            <constraint firstItem="qUI-9K-ckp" firstAttribute="leading" secondItem="sNS-lc-8No" secondAttribute="leading" constant="15" id="Ivt-hd-npi"/>
-                            <constraint firstItem="VPO-2w-gu6" firstAttribute="leading" secondItem="dLu-fU-6VH" secondAttribute="leading" id="JKj-Ns-o66"/>
-                            <constraint firstItem="VPO-2w-gu6" firstAttribute="width" secondItem="dLu-fU-6VH" secondAttribute="width" id="Z6T-V0-EKv"/>
-                            <constraint firstAttribute="trailing" secondItem="qGq-i9-zVZ" secondAttribute="trailing" constant="16" id="beC-Iq-MhJ"/>
-                            <constraint firstItem="sNS-lc-8No" firstAttribute="trailing" secondItem="qUI-9K-ckp" secondAttribute="trailing" constant="15" id="gEk-Ke-Yhn"/>
-                            <constraint firstItem="sNS-lc-8No" firstAttribute="bottom" secondItem="qUI-9K-ckp" secondAttribute="bottom" constant="5" id="oNd-ng-zyr"/>
-                            <constraint firstItem="qGq-i9-zVZ" firstAttribute="top" secondItem="VPO-2w-gu6" secondAttribute="bottom" constant="10" id="pDo-Sx-4m5"/>
+                            <constraint firstItem="qUI-9K-ckp" firstAttribute="centerX" secondItem="dLu-fU-6VH" secondAttribute="centerX" id="7pD-ic-Zr6"/>
+                            <constraint firstItem="VPO-2w-gu6" firstAttribute="top" secondItem="sNS-lc-8No" secondAttribute="top" id="CSQ-Pt-6nN"/>
+                            <constraint firstItem="qUI-9K-ckp" firstAttribute="top" secondItem="qGq-i9-zVZ" secondAttribute="bottom" constant="5" id="ChX-t5-MGA"/>
+                            <constraint firstItem="qGq-i9-zVZ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="dLu-fU-6VH" secondAttribute="leading" constant="1" id="MW4-PQ-mEK"/>
+                            <constraint firstItem="qGq-i9-zVZ" firstAttribute="top" secondItem="VPO-2w-gu6" secondAttribute="bottom" constant="5" id="NDF-ja-M4N"/>
+                            <constraint firstItem="VPO-2w-gu6" firstAttribute="centerX" secondItem="qUI-9K-ckp" secondAttribute="centerX" id="Qen-cR-thA"/>
+                            <constraint firstItem="VPO-2w-gu6" firstAttribute="leading" secondItem="dLu-fU-6VH" secondAttribute="leading" id="RuA-ze-2IO"/>
+                            <constraint firstAttribute="bottom" secondItem="qUI-9K-ckp" secondAttribute="bottom" id="jvY-Y6-UAB"/>
+                            <constraint firstAttribute="trailing" secondItem="qGq-i9-zVZ" secondAttribute="trailing" constant="1" id="k6V-C2-zBQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="sNS-lc-8No"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Community" id="4H5-CQ-7DL"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wyq-9c-Kv9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -921,8 +915,11 @@ Given the nickname “Stan the Man,” he was a role model on and off the field.
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5UQ-LY-DqK">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1500"/>
                                         <subviews>
-                                            <navigationBar contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s0S-Jg-PPa">
+                                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s0S-Jg-PPa">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="44" id="6Hv-ED-Uok"/>
+                                                </constraints>
                                                 <items>
                                                     <navigationItem title="List of Attendees" id="r4J-vh-Sv8">
                                                         <barButtonItem key="leftBarButtonItem" title="Back" id="V9F-xA-Ddj">
@@ -1054,6 +1051,7 @@ Given the nickname “Stan the Man,” he was a role model on and off the field.
                                             <constraint firstItem="uSu-HQ-k5x" firstAttribute="width" secondItem="5UQ-LY-DqK" secondAttribute="width" id="IGr-3E-VeQ"/>
                                             <constraint firstItem="knr-0x-DJh" firstAttribute="top" secondItem="GiJ-BW-0Ii" secondAttribute="bottom" constant="20" id="Kw9-jV-7XP"/>
                                             <constraint firstItem="knr-0x-DJh" firstAttribute="centerX" secondItem="5UQ-LY-DqK" secondAttribute="centerX" id="KzI-I7-skb"/>
+                                            <constraint firstItem="s0S-Jg-PPa" firstAttribute="trailing" secondItem="uSu-HQ-k5x" secondAttribute="trailing" id="N1e-D0-XeC"/>
                                             <constraint firstItem="s0S-Jg-PPa" firstAttribute="top" secondItem="5UQ-LY-DqK" secondAttribute="top" id="Pfw-kU-zyV"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="uSu-HQ-k5x" secondAttribute="trailing" id="TuT-Ce-soC"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="0KK-A2-VgK" secondAttribute="trailing" constant="20" symbolic="YES" id="Vv5-BI-VLT"/>
@@ -1070,9 +1068,9 @@ Given the nickname “Stan the Man,” he was a role model on and off the field.
                                             <constraint firstItem="45u-jo-HX6" firstAttribute="top" secondItem="uSu-HQ-k5x" secondAttribute="bottom" constant="30" id="nFo-wE-QjH"/>
                                             <constraint firstItem="P64-tk-mb9" firstAttribute="centerX" secondItem="5UQ-LY-DqK" secondAttribute="centerX" id="nxR-CL-uAn"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="MtQ-Mr-rJ9" secondAttribute="trailing" constant="20" symbolic="YES" id="op4-1X-I9D"/>
-                                            <constraint firstItem="s0S-Jg-PPa" firstAttribute="width" secondItem="5UQ-LY-DqK" secondAttribute="width" id="tMx-kA-SRF"/>
                                             <constraint firstItem="MtQ-Mr-rJ9" firstAttribute="top" secondItem="s0S-Jg-PPa" secondAttribute="bottom" constant="20" id="tjC-EZ-gJi"/>
                                             <constraint firstItem="Or4-1J-Fl1" firstAttribute="top" secondItem="5UQ-LY-DqK" secondAttribute="top" constant="424" id="wlH-F9-aGF"/>
+                                            <constraint firstItem="s0S-Jg-PPa" firstAttribute="leading" secondItem="uSu-HQ-k5x" secondAttribute="leading" id="xDR-a1-xd5"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -1563,7 +1561,7 @@ CQ
     <inferredMetricsTieBreakers>
         <segue reference="rMb-8T-0hX"/>
         <segue reference="rLJ-Cv-6UC"/>
-        <segue reference="UkS-RC-CBI"/>
+        <segue reference="rDF-Ms-E5n"/>
         <segue reference="l6I-f3-pvK"/>
     </inferredMetricsTieBreakers>
 </document>
