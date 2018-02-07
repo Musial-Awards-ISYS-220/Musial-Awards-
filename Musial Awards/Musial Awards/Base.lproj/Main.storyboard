@@ -376,8 +376,6 @@
         <!--Nominees-->
         <scene sceneID="MIW-hA-kkd">
             <objects>
-                <exit id="bPu-Fo-Dfo" userLabel="Exit" sceneMemberID="exit"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="whO-QB-F9l" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController title="Nominees" id="FND-P3-yIv" customClass="NomineesViewController" customModule="Musial_Awards" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CfP-GV-Svu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -522,6 +520,8 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Nominees" id="50M-u2-oDM"/>
                 </viewController>
+                <exit id="bPu-Fo-Dfo" userLabel="Exit" sceneMemberID="exit"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="whO-QB-F9l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2776.8000000000002" y="113.79310344827587"/>
         </scene>
@@ -1417,8 +1417,8 @@ Given the nickname “Stan the Man,” he was a role model on and off the field.
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="rMb-8T-0hX"/>
-        <segue reference="rLJ-Cv-6UC"/>
-        <segue reference="UkS-RC-CBI"/>
+        <segue reference="hIl-pj-dg6"/>
+        <segue reference="rDF-Ms-E5n"/>
         <segue reference="l6I-f3-pvK"/>
     </inferredMetricsTieBreakers>
 </document>
