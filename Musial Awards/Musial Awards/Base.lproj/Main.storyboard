@@ -1115,16 +1115,16 @@ CQ
                                 <rect key="frame" x="10" y="100" width="355" height="367"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rRW-Yy-9Da">
-                                        <rect key="frame" x="0.0" y="0.0" width="355" height="26.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="23"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Award Show" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z7A-a4-VrF">
-                                                <rect key="frame" x="0.0" y="3" width="172.5" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="1.5" width="172.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$10-$50" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rjd-AE-AyU">
-                                                <rect key="frame" x="182.5" y="3" width="172.5" height="20.5"/>
+                                                <rect key="frame" x="182.5" y="1.5" width="172.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1135,16 +1135,16 @@ CQ
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Dyk-9x-vtB">
-                                        <rect key="frame" x="0.0" y="26.5" width="355" height="26"/>
+                                        <rect key="frame" x="0.0" y="23" width="355" height="23"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mezzanine Level" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cEz-ye-YVd">
-                                                <rect key="frame" x="0.0" y="3" width="172.5" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="1.5" width="172.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$10-$25" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tJu-EU-1EO">
-                                                <rect key="frame" x="182.5" y="3" width="172.5" height="20.5"/>
+                                                <rect key="frame" x="182.5" y="1.5" width="172.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1155,16 +1155,16 @@ CQ
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="kmN-he-RjT">
-                                        <rect key="frame" x="0.0" y="52.5" width="355" height="26.5"/>
+                                        <rect key="frame" x="0.0" y="46" width="355" height="23"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Orchestra Level" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mlV-aQ-gAG">
-                                                <rect key="frame" x="0.0" y="3" width="172.5" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="1.5" width="172.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$35-$50" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqx-zf-6TN">
-                                                <rect key="frame" x="182.5" y="3" width="172.5" height="20.5"/>
+                                                <rect key="frame" x="182.5" y="1.5" width="172.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1175,16 +1175,16 @@ CQ
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="y9c-Ph-aKE">
-                                        <rect key="frame" x="0.0" y="79" width="355" height="26.5"/>
+                                        <rect key="frame" x="0.0" y="69" width="355" height="23.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Perfect Knight" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v9Y-Cf-KKl">
-                                                <rect key="frame" x="0.0" y="3" width="172.5" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="1.5" width="172.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$200" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7j6-cO-ps9">
-                                                <rect key="frame" x="182.5" y="3" width="172.5" height="20.5"/>
+                                                <rect key="frame" x="182.5" y="1.5" width="172.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1195,10 +1195,10 @@ CQ
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="3SL-hu-P19">
-                                        <rect key="frame" x="0.0" y="105.5" width="355" height="104.5"/>
+                                        <rect key="frame" x="0.0" y="92.5" width="355" height="114"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aAv-fh-YOv">
-                                                <rect key="frame" x="0.0" y="1.5" width="355" height="101.5"/>
+                                                <rect key="frame" x="0.0" y="6" width="355" height="101.5"/>
                                                 <string key="text">Available through the Musial Awards by calling 314-345-5111.
  The Perfect Knight Reception begins at 6 p.m.
 </string>
@@ -1209,16 +1209,16 @@ CQ
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="vgg-JH-sAW">
-                                        <rect key="frame" x="0.0" y="210" width="355" height="26.5"/>
+                                        <rect key="frame" x="0.0" y="206.5" width="355" height="23"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The 3,630 Club" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QyK-mT-hOd">
-                                                <rect key="frame" x="0.0" y="3" width="172.5" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="1.5" width="172.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$3,630" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ivf-hQ-hFu">
-                                                <rect key="frame" x="182.5" y="3" width="172.5" height="20.5"/>
+                                                <rect key="frame" x="182.5" y="1.5" width="172.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1229,10 +1229,10 @@ CQ
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Qlg-Ou-gO4">
-                                        <rect key="frame" x="0.0" y="236.5" width="355" height="130.5"/>
+                                        <rect key="frame" x="0.0" y="229.5" width="355" height="137.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pGc-ub-xeo">
-                                                <rect key="frame" x="0.0" y="4.5" width="355" height="122"/>
+                                                <rect key="frame" x="0.0" y="8" width="355" height="122"/>
                                                 <string key="text">Available through the Musial Awards by calling 314-345-5111  The Red Carpet Cocktail Reception begins  at 5 p.m. followed by the 3,630 Club Dinner  at 6 p.m.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
