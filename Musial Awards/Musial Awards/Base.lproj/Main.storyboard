@@ -626,51 +626,36 @@
                                                 <segue destination="eQq-WU-k9b" kind="show" id="l6I-f3-pvK"/>
                                             </connections>
                                         </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Filter" id="CfO-Qi-JyY">
+                                            <connections>
+                                                <segue destination="Xyv-e4-QIb" kind="popoverPresentation" popoverAnchorBarButtonItem="CfO-Qi-JyY" id="Nef-n3-MrN">
+                                                    <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                                </segue>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qGq-i9-zVZ">
-                                <rect key="frame" x="330" y="69" width="44" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Filter"/>
-                                <connections>
-                                    <segue destination="Xyv-e4-QIb" kind="popoverPresentation" popoverAnchorView="qGq-i9-zVZ" id="cct-1V-OuJ">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
-                                </connections>
-                            </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="qUI-9K-ckp">
-                                <rect key="frame" x="1" y="110" width="373" height="557"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2017-12-14 at 5.36.20 PM" translatesAutoresizingMaskIntoConstraints="NO" id="7pN-Jn-fND">
-                                        <rect key="frame" x="0.0" y="0.0" width="373" height="185.5"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2017-12-14 at 5.35.43 PM" translatesAutoresizingMaskIntoConstraints="NO" id="12T-cF-Zk9">
-                                        <rect key="frame" x="0.0" y="185.5" width="373" height="186"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2017-12-14 at 5.34.09 PM" translatesAutoresizingMaskIntoConstraints="NO" id="1q6-FU-RI2">
-                                        <rect key="frame" x="0.0" y="371.5" width="373" height="185.5"/>
-                                    </imageView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="373" id="8n9-tb-n35"/>
-                                </constraints>
-                            </stackView>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KBt-xn-J4n">
+                                <rect key="frame" x="16" y="86" width="343" height="561"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="qUI-9K-ckp" firstAttribute="centerX" secondItem="dLu-fU-6VH" secondAttribute="centerX" id="7pD-ic-Zr6"/>
                             <constraint firstItem="VPO-2w-gu6" firstAttribute="top" secondItem="sNS-lc-8No" secondAttribute="top" id="CSQ-Pt-6nN"/>
-                            <constraint firstItem="qUI-9K-ckp" firstAttribute="top" secondItem="qGq-i9-zVZ" secondAttribute="bottom" constant="5" id="ChX-t5-MGA"/>
-                            <constraint firstItem="qGq-i9-zVZ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="dLu-fU-6VH" secondAttribute="leading" constant="1" id="MW4-PQ-mEK"/>
-                            <constraint firstItem="qGq-i9-zVZ" firstAttribute="top" secondItem="VPO-2w-gu6" secondAttribute="bottom" constant="5" id="NDF-ja-M4N"/>
-                            <constraint firstItem="VPO-2w-gu6" firstAttribute="centerX" secondItem="qUI-9K-ckp" secondAttribute="centerX" id="Qen-cR-thA"/>
                             <constraint firstItem="VPO-2w-gu6" firstAttribute="leading" secondItem="dLu-fU-6VH" secondAttribute="leading" id="RuA-ze-2IO"/>
-                            <constraint firstAttribute="bottom" secondItem="qUI-9K-ckp" secondAttribute="bottom" id="jvY-Y6-UAB"/>
-                            <constraint firstAttribute="trailing" secondItem="qGq-i9-zVZ" secondAttribute="trailing" constant="1" id="k6V-C2-zBQ"/>
+                            <constraint firstItem="VPO-2w-gu6" firstAttribute="centerX" secondItem="KBt-xn-J4n" secondAttribute="centerX" id="XhN-rD-CNE"/>
+                            <constraint firstItem="KBt-xn-J4n" firstAttribute="top" secondItem="VPO-2w-gu6" secondAttribute="bottom" constant="22" id="hja-aG-lNV"/>
+                            <constraint firstAttribute="bottom" secondItem="KBt-xn-J4n" secondAttribute="bottom" constant="20" symbolic="YES" id="kSJ-zS-u2y"/>
+                            <constraint firstAttribute="trailing" secondItem="VPO-2w-gu6" secondAttribute="trailing" id="zmc-6K-wKh"/>
+                            <constraint firstItem="KBt-xn-J4n" firstAttribute="leading" secondItem="dLu-fU-6VH" secondAttribute="leadingMargin" id="zwg-o2-XAb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="sNS-lc-8No"/>
                     </view>
+                    <connections>
+                        <outlet property="twitterWebView" destination="KBt-xn-J4n" id="GxL-zM-HZq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wyq-9c-Kv9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1115,16 +1100,16 @@ CQ
                                 <rect key="frame" x="10" y="100" width="355" height="367"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rRW-Yy-9Da">
-                                        <rect key="frame" x="0.0" y="0.0" width="355" height="23"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="26.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Award Show" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z7A-a4-VrF">
-                                                <rect key="frame" x="0.0" y="1.5" width="172.5" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="3" width="172.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$10-$50" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rjd-AE-AyU">
-                                                <rect key="frame" x="182.5" y="1.5" width="172.5" height="20.5"/>
+                                                <rect key="frame" x="182.5" y="3" width="172.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1135,16 +1120,16 @@ CQ
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Dyk-9x-vtB">
-                                        <rect key="frame" x="0.0" y="23" width="355" height="23"/>
+                                        <rect key="frame" x="0.0" y="26.5" width="355" height="26"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mezzanine Level" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cEz-ye-YVd">
-                                                <rect key="frame" x="0.0" y="1.5" width="172.5" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="3" width="172.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$10-$25" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tJu-EU-1EO">
-                                                <rect key="frame" x="182.5" y="1.5" width="172.5" height="20.5"/>
+                                                <rect key="frame" x="182.5" y="3" width="172.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1155,16 +1140,16 @@ CQ
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="kmN-he-RjT">
-                                        <rect key="frame" x="0.0" y="46" width="355" height="23"/>
+                                        <rect key="frame" x="0.0" y="52.5" width="355" height="26.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Orchestra Level" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mlV-aQ-gAG">
-                                                <rect key="frame" x="0.0" y="1.5" width="172.5" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="3" width="172.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$35-$50" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqx-zf-6TN">
-                                                <rect key="frame" x="182.5" y="1.5" width="172.5" height="20.5"/>
+                                                <rect key="frame" x="182.5" y="3" width="172.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1175,16 +1160,16 @@ CQ
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="y9c-Ph-aKE">
-                                        <rect key="frame" x="0.0" y="69" width="355" height="23.5"/>
+                                        <rect key="frame" x="0.0" y="79" width="355" height="26.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Perfect Knight" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v9Y-Cf-KKl">
-                                                <rect key="frame" x="0.0" y="1.5" width="172.5" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="3" width="172.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$200" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7j6-cO-ps9">
-                                                <rect key="frame" x="182.5" y="1.5" width="172.5" height="20.5"/>
+                                                <rect key="frame" x="182.5" y="3" width="172.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1195,10 +1180,10 @@ CQ
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="3SL-hu-P19">
-                                        <rect key="frame" x="0.0" y="92.5" width="355" height="114"/>
+                                        <rect key="frame" x="0.0" y="105.5" width="355" height="104.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aAv-fh-YOv">
-                                                <rect key="frame" x="0.0" y="6" width="355" height="101.5"/>
+                                                <rect key="frame" x="0.0" y="1.5" width="355" height="101.5"/>
                                                 <string key="text">Available through the Musial Awards by calling 314-345-5111.
  The Perfect Knight Reception begins at 6 p.m.
 </string>
@@ -1209,16 +1194,16 @@ CQ
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="vgg-JH-sAW">
-                                        <rect key="frame" x="0.0" y="206.5" width="355" height="23"/>
+                                        <rect key="frame" x="0.0" y="210" width="355" height="26.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The 3,630 Club" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QyK-mT-hOd">
-                                                <rect key="frame" x="0.0" y="1.5" width="172.5" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="3" width="172.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$3,630" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ivf-hQ-hFu">
-                                                <rect key="frame" x="182.5" y="1.5" width="172.5" height="20.5"/>
+                                                <rect key="frame" x="182.5" y="3" width="172.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1229,10 +1214,10 @@ CQ
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Qlg-Ou-gO4">
-                                        <rect key="frame" x="0.0" y="229.5" width="355" height="137.5"/>
+                                        <rect key="frame" x="0.0" y="236.5" width="355" height="130.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pGc-ub-xeo">
-                                                <rect key="frame" x="0.0" y="8" width="355" height="122"/>
+                                                <rect key="frame" x="0.0" y="4.5" width="355" height="122"/>
                                                 <string key="text">Available through the Musial Awards by calling 314-345-5111  The Red Carpet Cocktail Reception begins  at 5 p.m. followed by the 3,630 Club Dinner  at 6 p.m.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -1542,9 +1527,6 @@ CQ
         <image name="Edward-Jones" width="200" height="49"/>
         <image name="IMG_3558 2" width="2973" height="2973"/>
         <image name="STL-Post-Dispatch_200x112" width="200" height="112"/>
-        <image name="Screen Shot 2017-12-14 at 5.34.09 PM" width="593" height="427"/>
-        <image name="Screen Shot 2017-12-14 at 5.35.43 PM" width="504" height="389"/>
-        <image name="Screen Shot 2017-12-14 at 5.36.20 PM" width="872" height="537"/>
         <image name="SouthernGlaze" width="200" height="112"/>
         <image name="UMB" width="190" height="69"/>
         <image name="UnitedHealthcare_200x112" width="200" height="112"/>
@@ -1559,7 +1541,8 @@ CQ
         <image name="maryville" width="300" height="200"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="rMb-8T-0hX"/>
+        <segue reference="H7S-QZ-gJ0"/>
+        <segue reference="Nef-n3-MrN"/>
         <segue reference="rLJ-Cv-6UC"/>
         <segue reference="rDF-Ms-E5n"/>
         <segue reference="l6I-f3-pvK"/>

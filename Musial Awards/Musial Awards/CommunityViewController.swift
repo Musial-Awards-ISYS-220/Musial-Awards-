@@ -9,10 +9,14 @@
 import UIKit
 
 class CommunityViewController: UIViewController {
-
+    @IBOutlet weak var twitterWebView: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let twitterURL = NSURL (string: "https://twitter.com/hashtag/MusialAwards?src=hash")
+        let request = NSURLRequest(url: twitterURL! as URL)
+        twitterWebView.loadRequest(request as URLRequest)
         // Do any additional setup after loading the view.
     }
 
