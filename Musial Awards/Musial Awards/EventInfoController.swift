@@ -7,12 +7,24 @@
 //
 
 import UIKit
+import MapKit
 
 class EventInfoController: UIViewController {
 
+    @IBOutlet weak var mapKitMusial: MKMapView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let centerLocation = CLLocationCoordinate2DMake(38.6278, -90.2019)
+        
+        let mapSpan = MKCoordinateSpan (latitudeDelta: 0.001, longitudeDelta: 0.001)
+        
+        let mapRegion = MKCoordinateRegion (center: centerLocation, span: mapSpan)
+        
+        self.mapKitMusial.setRegion(mapRegion, animated: true)
+        
         // Do any additional setup after loading the view.
     }
 

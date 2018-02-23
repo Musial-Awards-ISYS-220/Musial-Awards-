@@ -1,24 +1,26 @@
 //
-//  NominateSomeoneViewController.swift
+//  BuyTicketsViewController.swift
 //  Musial Awards
 //
-//  Created by Drew Stanowski on 12/14/17.
-//  Copyright © 2017 Maryville App Development. All rights reserved.
+//  Created by Drew Stanowski on 2/22/18.
+//  Copyright © 2018 Maryville App Development. All rights reserved.
 //
 
 import UIKit
+import WebKit
 
-class NominateSomeoneViewController: UIViewController {
-
-    @IBOutlet weak var nominateWebView: UIWebView!
-    
+class BuyTicketsViewController: UIViewController {
+    @IBOutlet weak var ticketMasterWebView: UIWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let nominateURL = NSURL (string: "https://musialawards.com/features/nominate-an-act/")
-        let nominateRequest = NSURLRequest (url: nominateURL! as URL)
-        nominateWebView.loadRequest(nominateRequest as URLRequest)
+        let musialAwardsURL = NSURL (string: "https://musialawards.com/features/attend-the-musial-awards/")
+        let musialRequest =  NSURLRequest(url: musialAwardsURL! as URL)
+        ticketMasterWebView.loadRequest(musialRequest as URLRequest)
+        
+    
+    
     }
 
     override func didReceiveMemoryWarning() {

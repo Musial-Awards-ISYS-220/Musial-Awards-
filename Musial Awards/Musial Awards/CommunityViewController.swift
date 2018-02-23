@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import WebKit
 
 class CommunityViewController: UIViewController {
     @IBOutlet weak var twitterWebView: UIWebView!

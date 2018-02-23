@@ -16,6 +16,8 @@
 		2D864F601FE30E84009DF308 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D864F5F1FE30E84009DF308 /* CommunityViewController.swift */; };
 		2D864F621FE31537009DF308 /* PurposeOfEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D864F611FE31537009DF308 /* PurposeOfEventViewController.swift */; };
 		2D864F641FE3168A009DF308 /* TicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D864F631FE3168A009DF308 /* TicketsViewController.swift */; };
+		2DBF615E203F972500FAC762 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBF615D203F972500FAC762 /* MapKit.framework */; };
+		2DBF6160203F9BDE00FAC762 /* BuyTicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF615F203F9BDE00FAC762 /* BuyTicketsViewController.swift */; };
 		2DF5282C1FCCC65300FED485 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF5282B1FCCC65300FED485 /* AppDelegate.swift */; };
 		2DF5282E1FCCC65300FED485 /* DeveloperController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF5282D1FCCC65300FED485 /* DeveloperController.swift */; };
 		2DF528311FCCC65300FED485 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DF5282F1FCCC65300FED485 /* Main.storyboard */; };
@@ -33,6 +35,8 @@
 		2D864F5F1FE30E84009DF308 /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
 		2D864F611FE31537009DF308 /* PurposeOfEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurposeOfEventViewController.swift; sourceTree = "<group>"; };
 		2D864F631FE3168A009DF308 /* TicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsViewController.swift; sourceTree = "<group>"; };
+		2DBF615D203F972500FAC762 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2DBF615F203F9BDE00FAC762 /* BuyTicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyTicketsViewController.swift; sourceTree = "<group>"; };
 		2DF528281FCCC65300FED485 /* Musial Awards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Musial Awards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DF5282B1FCCC65300FED485 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DF5282D1FCCC65300FED485 /* DeveloperController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperController.swift; sourceTree = "<group>"; };
@@ -47,17 +51,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DBF615E203F972500FAC762 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DBF615C203F972400FAC762 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DBF615D203F972500FAC762 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2DF5281F1FCCC65300FED485 = {
 			isa = PBXGroup;
 			children = (
 				2DF5282A1FCCC65300FED485 /* Musial Awards */,
 				2DF528291FCCC65300FED485 /* Products */,
+				2DBF615C203F972400FAC762 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,13 +87,14 @@
 			isa = PBXGroup;
 			children = (
 				2DF5282B1FCCC65300FED485 /* AppDelegate.swift */,
-				2D864F5F1FE30E84009DF308 /* CommunityViewController.swift */,
+				2DBF615F203F9BDE00FAC762 /* BuyTicketsViewController.swift */,
 				163065AE1FE327E100DF8BBF /* CommunityFilterController.swift */,
 				2DF5282D1FCCC65300FED485 /* DeveloperController.swift */,
 				164CBBA41FE1CE6C00B88439 /* EventInfoController.swift */,
 				164CBBA21FE1CE0A00B88439 /* HomeController.swift */,
 				163065721FE3126000DF8BBF /* ListAttendeesController.swift */,
 				2D864F5B1FE30B88009DF308 /* NomineesViewController.swift */,
+				2D864F5F1FE30E84009DF308 /* CommunityViewController.swift */,
 				2D864F5D1FE30C5E009DF308 /* NominateSomeoneViewController.swift */,
 				2D864F611FE31537009DF308 /* PurposeOfEventViewController.swift */,
 				2D864F631FE3168A009DF308 /* TicketsViewController.swift */,
@@ -170,6 +185,7 @@
 				2D864F621FE31537009DF308 /* PurposeOfEventViewController.swift in Sources */,
 				164CBBA51FE1CE6C00B88439 /* EventInfoController.swift in Sources */,
 				2D864F5C1FE30B88009DF308 /* NomineesViewController.swift in Sources */,
+				2DBF6160203F9BDE00FAC762 /* BuyTicketsViewController.swift in Sources */,
 				2D864F641FE3168A009DF308 /* TicketsViewController.swift in Sources */,
 				163065731FE3126000DF8BBF /* ListAttendeesController.swift in Sources */,
 				164CBBA31FE1CE0A00B88439 /* HomeController.swift in Sources */,
